@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "jsx": "react",
+        "allowJs": true,
+        "lib": ["es2015","dom"],
+        "paths": {
+            "@/*": ["src/*"]
+        }
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
